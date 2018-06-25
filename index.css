@@ -1,0 +1,58 @@
+html {
+	background-color: rgb(30, 30, 30);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#grid {
+	width: 80vh;
+	height: 80vh;
+	background-color: white;
+}
+
+button {
+	margin-top: 5vh;
+}
+
+.case, .line {
+	margin: 0;
+	padding: 0;
+}
+
+.case {
+	height: calc(4vh - 2px);
+	width: calc(4vh - 2px);
+	border: solid rgb(210, 210, 210) 1px;
+	background-color: white;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+}
+
+.bonus {
+	background-color: green !important;
+}
+
+.head {
+	background-color: red !important;
+}
+
+.body {
+	background-color: brown !important;
+}
+
+#score, #over {
+	color: white;
+	margin: 1vh;
+}
+
+#over {
+	font-weight: bold;
+}
